@@ -1,6 +1,6 @@
 # _My Epicodus Portfolio_
 
-#### _1st Independent project, 03/22/2019_
+#### _3rd Independent project, 04/05/2019_
 
 #### By _**Stephen Trewick**_
 

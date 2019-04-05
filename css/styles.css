@@ -1,0 +1,15 @@
+button {
+  margin: 1%;
+}
+
+.jumbotron {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9SUNtUvQu96NOcU_bqp4U2kQm4HNJhyuw0fJogxjXcuj3xoZsMQ');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font: sans-serif;
+  letter-spacing: 50px;
+  font-weight: bolder;
+  -webkit-text-stroke: 1px black;
+}
