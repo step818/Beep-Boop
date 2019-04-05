@@ -1,9 +1,9 @@
 $(document).ready(function(){
   $("form#hal9000").submit(function(event){
     event.preventDefault();
-    var beep = "Beep!";
-    var boop = "Boop!";
-    var sorry = "Im sorry Dave, Im afraid I cannot do that."
+    var beep = " Beep!";
+    var boop = " Boop!";
+    var sorry = " I'm sorry Dave, I'm afraid I can't do that"
     var array = [];
     var finalNum = $("input#inputNumber").val();
 
@@ -26,7 +26,6 @@ $(document).ready(function(){
           array.splice(i,1,beep);
         }
       }
-
       if (array[i] === 1 || array[i] === 2 || array[i] === 3) {
         if (array[i] === 3) {
           array[i] = sorry;
@@ -37,7 +36,6 @@ $(document).ready(function(){
         }
       }
     }
-
 
     var halsAnswer = array.toString();
 
