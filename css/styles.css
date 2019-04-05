@@ -13,3 +13,13 @@ button {
   font-weight: bolder;
   -webkit-text-stroke: 1px black;
 }
+
+#output {
+  margin: 2%;
+  padding: 2%;
+  border: solid black 1px;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  font: sans-serif;
+}

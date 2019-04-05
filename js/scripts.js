@@ -3,7 +3,7 @@ $(document).ready(function(){
     event.preventDefault();
     var beep = " Beep!";
     var boop = " Boop!";
-    var sorry = " I'm sorry Dave, I'm afraid I can't do that"
+    var sorry = " I'm sorry "+ $("input#userName").val() +", I'm afraid I can't do that"
     var array = [];
     var finalNum = $("input#inputNumber").val();
 
