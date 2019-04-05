@@ -27,9 +27,9 @@
 
 ## Setup/Installation Requirements
 
-* _Load the web _
+* _Load the web page, [Link to gh-pages](https://step818.github.io/Beep-Boop/) _
 
-_You need a web browser that can handle HTML_
+_You need a web browser that can handle HTML and JavaScript_
 
 
 ## Support and contact details
