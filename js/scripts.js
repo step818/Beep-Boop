@@ -9,7 +9,6 @@ $(document).ready(function(){
 
     for (var i = 0; i <= finalNum; i++) {
       array.push(i);
-      if (array[i] > 9) {
         var multiDigit = i.toString();
         var contains3 = multiDigit.includes("3");
         var contains2 = multiDigit.includes("2");
@@ -26,16 +25,7 @@ $(document).ready(function(){
           array.splice(i,1,beep);
         }
       }
-      if (array[i] === 1 || array[i] === 2 || array[i] === 3) {
-        if (array[i] === 3) {
-          array[i] = sorry;
-        } else if (array[i] === 2) {
-          array[i] = boop;
-        } else {
-          array[i] = beep;
-        }
-      }
-    }
+  
 
     var halsAnswer = array.toString();
 
