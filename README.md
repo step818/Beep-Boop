@@ -14,11 +14,11 @@ This webpage is an exercise to test my understanding and skills with arrays and 
 
 | Spec | Input | Output |
 | :-----------------    | :------------------ | :-------------- |
-| **Returns a range of numbers from 0 to the users inputted number.** |  *_Input:_ "4" | *_Output:_ "0, 1, 2, 3, 4" |
-| **Returns "Beep!" for every number in the range containing the digit "1" | *_Input:_ "1" |*_Output:_ "0, Beep!" |
-| **Returns "Boop!" for every number in the range containing the digit "2" |*_Input:_ "2" | *_Output:_ "0, Beep!, Boop!" |
-| **Returns "I'm sorry Dave, I'm afraid I can't do that" for every number in the range containing the digit "3" | *_Input:_ "3" | *_Output:_ "0, Beep!, Boop!, I'm sorry Dave, I'm afraid I can't do that" |
-| **If a number contains a combination of "1","2",and/or "3", the program takes precedence over "3" first, then "2". | *_Input:_ "15" | *_Output:_ "0, Beep!, Boop!, I'm sorry ..., 4, 5, 6, 7, 8, 9, Beep!, Boop!, I'm sorry Dave..., Beep!, Beep!" |
+| Returns a range of numbers from 0 to the users inputted number.** |  *_Input:_ "4" | *_Output:_ "0, 1, 2, 3, 4" |
+| Returns "Beep!" for every number in the range containing the digit "1" | *_Input:_ "1" |*_Output:_ "0, Beep!" |
+| Returns "Boop!" for every number in the range containing the digit "2" |*_Input:_ "2" | *_Output:_ "0, Beep!, Boop!" |
+| Returns "I'm sorry Dave, I'm afraid I can't do that" for every number in the range containing the digit "3" | *_Input:_ "3" | *_Output:_ "0, Beep!, Boop!, I'm sorry Dave, I'm afraid I can't do that" |
+| If a number contains a combination of "1","2",and/or "3", the program takes precedence over "3" first, then "2". | *_Input:_ "15" | *_Output:_ "0, Beep!, Boop!, I'm sorry ..., 4, 5, 6, 7, 8, 9, Beep!, Boop!, I'm sorry Dave..., Beep!, Beep!" |
 
 
 ## Setup/Installation Requirements
