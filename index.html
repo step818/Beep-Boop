@@ -12,17 +12,24 @@
       <div class="jumbotron">
         <h1>HAL9000</h1>
       </div>
-      <div class="form-group">
-        <label for="userName">Hello, what is yout NAME:</label>
-        <input type="text" class="form-control" id="userName" value="Dave">
-      </div>
-      <form id="hal9000">
-       <div class="form-group">
-         <label for="inputNumber">Enter a NUMBER for me to process:</label>
-         <input type="number" class="form-control" id="inputNumber">
-          <button class = "btn btn-outline-success" type="submit">Open the pod bay door please, Hal</button>
-          <button id="refresh" class="btn btn-danger">Abort</button>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="form-group">
+            <label for="userName">Hello,<br> what is your NAME:</label>
+            <input type="text" class="form-control" id="userName" value="Dave">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <form id="hal9000">
+           <div class="form-group">
+             <label id="number-prompt" for="inputNumber">Enter a NUMBER for me to process:</label><br>
+             <input type="number" class="form-control" id="inputNumber">
+           </div>
+         </div>
        </div>
+            <button class = "btn btn-outline-success" type="submit">Open the pod bay door please, Hal</button>
+            <button id="refresh" class="btn btn-danger">Abort</button>
+         </div>
      </form>
      <div id="output">
      </div>
